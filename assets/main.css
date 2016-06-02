@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+}
+
+
 /*
   =================================
   Styles
@@ -32,6 +37,43 @@ fieldset input {
 
 }
 
+.name-box {
+  height: 150px;
+  line-height: 150px;
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 200px;
+  padding-top: 50px;
+  font-size: 36px;
+}
+
+
+
+/*
+  =================================
+  Images
+  =================================
+*/
+
+.banner {
+  background-image: url("forest.jpg");
+  height: 400px;
+  position: relative;
+  
+}
+
+.profile-image {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+}
+
+
+
+
 
 
 /*
@@ -45,7 +87,7 @@ header {
   background-color: #237BDD;
   color: white;
   height: 50px;
-  padding: 10px;
+  
 }
 
 .logo {
