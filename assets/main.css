@@ -58,7 +58,7 @@ fieldset input {
 
 .banner {
   background-image: url("forest.jpg");
-  height: 400px;
+  height: 350px;
   position: relative;
   
 }
@@ -256,3 +256,32 @@ header {
   padding-left: 0;
 
 }
+
+
+/*
+  =================================
+  tabs
+  =================================
+*/
+
+.nav {
+  height: 60px;
+  margin-top: 0;
+  border: 1px solid black;
+  padding-left: 150px;
+}
+
+
+.nav li {
+  height: 70px;
+  display: inline;
+  border-left: 1px solid black;
+  padding: 22px 10px;
+  width: 15%;
+}
+
+.nav li.link {
+  padding-left: 280px;
+}
+
+
