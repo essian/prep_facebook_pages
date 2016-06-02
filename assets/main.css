@@ -139,7 +139,7 @@ header {
 .username {
   float: right;
   display: inline-block;
-  margin: 20px 0;
+  margin: 20px 10px 20px 0;
   padding: 0;
   color: white;
 }
@@ -220,7 +220,10 @@ header {
   Sign Up
   =================================
 */
-
+.signup {
+  width: 90%;
+  float: left;
+}
 
 .plain-fields input {
   margin: 10px 0;  
@@ -282,6 +285,55 @@ header {
 
 .nav li.link {
   padding-left: 280px;
+}
+
+/*
+  =================================
+  about section
+  =================================
+*/
+
+.about-area {
+  float: left;
+  font-size: 20px;
+  padding: 0 2%;
+
+}
+
+.about-left {
+  width: 40%;
+}
+
+.about-right {
+  width: 60%;
+}
+
+.info {
+  font-size: 14px;
+  float: left;
+  padding: 3% 0;
+}
+
+.info-name {
+  font-weight: 700;
+  width: 40%;
+  
+}
+
+.info-value {
+  width: 60%;
+  
+}
+
+.about-header {
+  margin-top: 2%;
+  border: 1px solid black;
+  background-color: silver;
+}
+
+.about-body {
+  border: 1px solid black;
+  overflow: hidden;
 }
 
 
