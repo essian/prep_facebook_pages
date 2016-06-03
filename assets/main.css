@@ -9,6 +9,15 @@
   =================================
 */
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: silver;
+}
+
 body {
   font-family: sans-serif;
   margin: 0;
@@ -306,6 +315,11 @@ header {
 
 .nav li.link {
   padding-left: 280px;
+  text-decoration: underline;
+}
+
+nav li.link a {
+color: #237BDD;
 }
 
 /*
