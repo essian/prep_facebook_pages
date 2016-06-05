@@ -29,9 +29,7 @@ h3 {
   margin-top: 50px;
 }
 
-h4 {
-  margin: 10px 0 5px 0;
-}
+
 
 fieldset {
   border: none;
@@ -275,6 +273,15 @@ header {
 
 .birthday {
   margin: 10px 0;
+}
+
+.sub-title {
+  margin: 20px 0 5px 0;
+  font-weight: bold;
+}
+
+#birthday {
+  margin-top: 10px;
 }
 
 .gender input[type="radio"] {

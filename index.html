@@ -14,11 +14,11 @@
     
     <form class="login-form" action="/login" method="POST">
       <fieldset class="login-field">
-        <label for="email">Email<br><input type="text" name="email"></label>
+        <label for="email">Email<br><input id="email" type="text" name="email"></label>
         
       </fieldset>
       <fieldset class="login-field">
-        <label for="password">Password<br><input type="password" name="password"></label>
+        <label for="password">Password<br><input id="password" type="password" name="password"></label>
         
       </fieldset>
       
@@ -60,8 +60,8 @@
         </fieldset>
         <fieldset class="birthday">
           
-          <label for="birthday"><h4>Birthday</h4><br>
-            <select name="DOBMonth">
+          <label class="sub-title" for="birthday">Birthday<br>
+            <select id="birthday" name="DOBMonth">
               <option> - Month - </option>
               <option value="January">January</option>
               <option value="Febuary">Febuary</option>
@@ -76,6 +76,7 @@
               <option value="November">November</option>
               <option value="December">December</option>
             </select>
+          </label>
             <select name="DOBDay">
               <option> - Day - </option>
               <option value="1">1</option>
