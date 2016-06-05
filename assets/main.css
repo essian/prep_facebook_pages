@@ -21,12 +21,18 @@ a:hover {
 body {
   font-family: sans-serif;
   margin: 0;
+  position: relative;
+  height: 100%;
 }
 
 h3 {
   font-size: 32px;
   margin-bottom: 10px;
   margin-top: 50px;
+}
+
+h4 {
+  margin: 0.35em;
 }
 
 
@@ -338,7 +344,7 @@ color: #237BDD;
 .about-area {
   float: left;
   font-size: 20px;
-  padding: 0 2%;
+  padding: 1.5em 2% 0 2%;
 
 }
 
@@ -386,6 +392,24 @@ color: #237BDD;
   font-size: 28px;
   letter-spacing: 1px;
 }
+
+/*
+  =================================
+  footer
+  =================================
+*/
+
+footer {
+  width: 100%;
+  background-color: silver;
+  height: 2em;
+  position: absolute;
+  bottom: 0;
+
+}
+
+
+
 
 
 
